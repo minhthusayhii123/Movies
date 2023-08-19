@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@import
+	url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap")
+	;
+
+@import
+	url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+:root {
+	-color-1: #f8ede3;
+	-color-2: #dfd3c3;
+	-color-3: #d0b8a8;
+	-color-4: #85586f;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+/* Auth-sidebar */
+.auth-sidebar header a {
+	color: #85586f;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: "Pacifico", cursive;
+}
+
+.auth-sidebar header h1 {
+	color: #694055;
+	font-size: 30px;
+	font-weight: 650;
+}
+
+.auth-sidebar .artwork .artwork-attribution {
+	color: #85586f;
+}
+
+.auth-sidebar .artwork .artwork-attribution a {
+	color: #85586f;
+}
+
+.content .auth-nav .auth-link a {
+	text-decoration: none;
+}
+
+.content .card-body form {
+	width: 100%;
+	max-width: 500px;
+}
+
+.card-body .header span {
+	font-size: 32px;
+	color: #694055;
+}
+
+.auth-connections a {
+	border-radius: 10px;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.auth-connections .google-connect-btn {
+	background-color: #1a73e8;
+	color: #fff;
+}
+
+.auth-connections .twitter-connect-btn {
+	background-color: #e5e5e5;
+	color: #6e6d7a;
+}
+
+.content .card-body .form-outline label {
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.content .card-body .form-outline input {
+	border: unset;
+	background-color: #f3f3f4;
+	border-radius: 10px;
+	font-size: 17px;
+}
+
+.content .card-body .forgot-pass {
+	text-decoration: none;
+	color: #683fb0;
+	font-weight: 500;
+}
+
+.content .card-body .sign-in .btn {
+	background-color: #ea4c89;
+	font-weight: 600;
+	font-size: 16px;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+.content .card-body .sign-in button:focus, .content .card-body .sign-in button:hover
+	{
+	box-shadow: unset;
+}
